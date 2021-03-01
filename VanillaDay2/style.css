@@ -1,0 +1,51 @@
+body{
+ min-height: 98vh;
+ width:98vw;
+ background-color: rgb(19, 18, 18);
+ display:flex;
+ align-items: center;
+}
+.content{
+    margin:auto;
+    height: 70vh;
+    width:87.5vh;
+    background:url("Sparrow.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    background-position-x:2.6vh ;
+}
+.content *{
+    transform:scale(1.3)
+}
+.frame{
+    margin-top:22.5vh;
+    margin-left:31.25vh;
+    height:25vh;
+    width:25vh;
+    border: white 8px solid;
+    border-radius:107px;
+    position:relative;
+}
+.hand{
+    width:12vh;
+    height:0.4vh;
+    background:black;
+    position:absolute;
+    float:left;
+    top:12.5vh;
+    left:0.5vh;
+    transform:rotate(90deg);
+    transform-origin: 100%;
+    transition-duration: 0.03s;
+    transition-timing-function: cubic-bezier(0.12, 2.04, 0.3, 1.65);
+}
+.second{
+
+}
+.minute{
+
+}
+.hour{
+
+}

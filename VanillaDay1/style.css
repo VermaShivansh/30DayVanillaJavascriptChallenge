@@ -1,0 +1,41 @@
+body{
+    height:98vh;
+    width:98vw;
+    background-image: url("bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
+    display: flex;
+    align-items: center;
+    border: beige 2px solid;
+}
+.content{
+    margin:auto;
+    width:96%;
+    height:96%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.key{
+    margin:auto;
+    border:1px solid black;
+    height:fit-content;
+    width:80px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.582) ;
+    color:white;
+    font-size: large;
+    letter-spacing: 0.25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.key h6{
+    color:coral;font-size: smaller;font-weight: 100;
+}
+.key:hover, .playing{
+    transform:scale(1.1);
+    border: coral 1px solid;
+    cursor: pointer;
+    transition-duration: 0.07s;
+}
+
