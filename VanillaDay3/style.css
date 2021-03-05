@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    color:black;
+    background:rgb(35, 35, 107) ;
+}
+:root{
+    --base: #FFFF00;
+    --blur: 10px;
+    --spacing: 10px;
+}
+.para{
+    font-size: 2vw;
+    font-weight: 800;
+}
+img{
+ padding:var(--spacing);
+ background: var(--base);
+ filter: blur(var(--blur));
+}
+.JS{
+    color:var(--base);
+}
